@@ -1,0 +1,28 @@
+﻿.main-fingerprint {
+    background-color: white;
+    padding: 5rem;
+    border: slategray;
+    border-style: dashed;
+    border-radius: 3px;
+}
+
+.main-img-fingerprint {
+    height: auto;
+    width: 50%;
+    border-radius: 3px;
+}
+
+.comparative-fingerprint {
+    background-color: white;
+    padding: 5rem;
+    border: slategray;
+    border-style: dashed;
+    border-radius: 3px;
+}
+
+.comparative-img-fingerprint {
+    height: auto;
+    width: 20%;
+    margin:5px;
+    border-radius:3px;
+}

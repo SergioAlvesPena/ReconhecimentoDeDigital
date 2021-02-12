@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<head>
+    <link rel="stylesheet" href="~/css/IndexPageStyles.css">
+</head>
+
+<div class="container">
+    <div class="text-center">
+        <h1 class="display-4">Bem Vindo</h1>
+        <div class="row">
+            <div id="mainFingerprint" name="main-image" class="col-md-5 main-fingerprint" dropzone="">
+                @*<span style="color:slategray">Arraste aqui a imagem que será a base das comparações</span>*@
+                <img src="http://cnbmg.org.br/wp-content/uploads/2020/07/unnamed-1-2.jpg" class="main-img-fingerprint" />
+            </div>
+            <div class="col-md-2"></div>
+            <div id="ComparativeFingerprint" name="outher-images" class="col-md-5 comparative-fingerprint" dropzone="">
+                @*<span style="color:slategray">Arraste aqui as imagens que serão comparadas com a base</span>*@
+                <img src="http://cnbmg.org.br/wp-content/uploads/2020/07/unnamed-1-2.jpg" class="comparative-img-fingerprint" />
+                <img src="http://cnbmg.org.br/wp-content/uploads/2020/07/unnamed-1-2.jpg" class="comparative-img-fingerprint" />
+                <img src="http://cnbmg.org.br/wp-content/uploads/2020/07/unnamed-1-2.jpg" class="comparative-img-fingerprint" />
+                <img src="http://cnbmg.org.br/wp-content/uploads/2020/07/unnamed-1-2.jpg" class="comparative-img-fingerprint" />
+                <img src="http://cnbmg.org.br/wp-content/uploads/2020/07/unnamed-1-2.jpg" class="comparative-img-fingerprint" />
+                <img src="http://cnbmg.org.br/wp-content/uploads/2020/07/unnamed-1-2.jpg" class="comparative-img-fingerprint" />
+                <img src="http://cnbmg.org.br/wp-content/uploads/2020/07/unnamed-1-2.jpg" class="comparative-img-fingerprint" />
+                <img src="http://cnbmg.org.br/wp-content/uploads/2020/07/unnamed-1-2.jpg" class="comparative-img-fingerprint" />
+            </div>
+        </div>
+        <button class="btn btn-secondary align-content-center" style="float:left; margin-top:2rem;">Cancelar</button>
+        <button class="btn btn-secondary align-content-center" style="float: right; margin-top: 2rem;">Verificar</button>
+    </div>
+</div>
+<script src="~/js/IndexPage.js"></script>
